@@ -44,5 +44,11 @@ All episode attributes in the requirements were integrated in database tables.
 
 -------------EXTRAS------------------
 
+?? Can Update episode meta data 
+?? Can Delete episode 
+
 Episodes were given categories, which required a seperate table to be installed on the phpMyAdmin 
 podcast database. The sql file has been uploaded in this repository. 
+
+---------DESIRABLES--------------
+
