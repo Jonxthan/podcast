@@ -16,7 +16,7 @@ The user can:
 
 A user can interact with the API by using a client application (such as postman) to GET information (that is stored in 
 the `posts` and `categories` phpmyadmin tables) about episodes in JSON format. The user must GET this data from 
-http://localhost/php_rest_podcast/api/post/read.php/
+http://localhost/php_rest_podcast/api/post/read.php/ (accessed locally)
 
 
 ----------STORING EPISODES------------
