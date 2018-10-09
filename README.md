@@ -3,7 +3,14 @@
 
 --------CREATE NEW EPISODE----------
 
-?The User can create 
+The User can POST new episodes into the database as long as the content-type = application/json. A user can 
+post information in JSON format and the api will accept the request. e.g. 
+
+{
+	"title": "Why PHP is awesome",
+	"description": "This podcast explains why PHP is a great programming language",
+	"category_name": "technology"
+}
 
 
 --------LIST ALL EPISODES-----------
@@ -17,7 +24,8 @@ or 'pretty' using a client application called postman. The user must GET this da
 A user can interact with the API by using a client application (such as postman) to GET information (that is stored in 
 the `posts` and `categories` phpmyadmin tables) about episodes in JSON format. 
 
-?IN THE PROCESS? The User can also request a specific episode by ID and the API will return information about the episode in JSON format.
+The User can also request a specific episode by ID and the API will return information about the episode in JSON format.
+e.g. a GET request can be sent to http://localhost/php_rest_podcast/api/post/read_single.php?id=3
 
 
 ----------STORING EPISODES------------
@@ -49,6 +57,3 @@ All episode attributes in the requirements were integrated in database tables.
 
 Episodes were given categories, which required a seperate table to be installed on the phpMyAdmin 
 podcast database. The sql file has been uploaded in this repository. 
-
----------DESIRABLES--------------
-
