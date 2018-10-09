@@ -38,7 +38,7 @@ expand my technical skillset.
 
 ---------MINIMUM EPISODE ATTRIBUTES---------------
 
-All attributes in the requirements were included as
+All episode attributes in the requirements were integrated 
 
 
 -------------EXTRAS------------------
