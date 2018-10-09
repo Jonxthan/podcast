@@ -8,15 +8,16 @@
 
 --------LIST ALL EPISODES-----------
 
-The user can:
-? GET individual episodes from the API by appending the URL with the ID e.g. 
-? The User can list all episodes in the database by.... 
+The user can GET information about all episodes stored in a phpmyadmin database and can be displayed either 'raw'
+or 'pretty' using a client application called postman. The user must GET this data from http://localhost/php_rest_podcast/api/post/read.php/ (accessed locally).
+
 
 --------JSON REQUESTS AND RESPONSES----------
 
 A user can interact with the API by using a client application (such as postman) to GET information (that is stored in 
-the `posts` and `categories` phpmyadmin tables) about episodes in JSON format. The user must GET this data from 
-http://localhost/php_rest_podcast/api/post/read.php/ (accessed locally)
+the `posts` and `categories` phpmyadmin tables) about episodes in JSON format. 
+
+?IN THE PROCESS? The User can also request a specific episode by ID and the API will return information about the episode in JSON format.
 
 
 ----------STORING EPISODES------------
@@ -38,7 +39,7 @@ expand my technical skillset.
 
 ---------MINIMUM EPISODE ATTRIBUTES---------------
 
-All episode attributes in the requirements were integrated 
+All episode attributes in the requirements were integrated in database tables. 
 
 
 -------------EXTRAS------------------
