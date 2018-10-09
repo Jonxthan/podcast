@@ -1,5 +1,5 @@
-						 						 
-						 
+For the database config to work, import podcast.sql to phpmyadmin database and set username to 'root' and leave password empty						 						 
+ 
 						 PODCAST API REQUIREMENTS
 
 
