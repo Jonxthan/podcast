@@ -21,7 +21,7 @@ http://localhost/php_rest_podcast/api/post/read.php/ (accessed locally)
 
 ----------STORING EPISODES------------
 
-The API queries episodes stored in phpMyAdmin tables instead of Amazon S3 or Digital Ocean because I was more familiar with using it, but research has been initiated on both these services. 
+The API queries episodes stored in phpMyAdmin tables instead of Amazon S3 or Digital Ocean because I was more familiar with using it, but research has been initiated on both services. 
 
 
 -------------TESTS----------------
